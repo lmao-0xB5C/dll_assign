@@ -6,5 +6,3 @@ This is a backup of the second data structures assignment I made. It is a doubly
 ```
     
 **_ALL OF THESE NEED TO HAVE TABS IN BETWEEN THEM_**
-
-**The assignment submitted did not have a destructor in the list (lol), but this does**
