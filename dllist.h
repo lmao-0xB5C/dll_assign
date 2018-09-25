@@ -23,8 +23,6 @@ public:
 	List(const List& right);
 	//destructor, not in the submitted assignment
 	~List();
-=======
->>>>>>> parent of cc7244a... Added list destructor, which was missing from submitted assignment *sed*
 
 public:
 	//typedef is used at compile time, its an alias basically
