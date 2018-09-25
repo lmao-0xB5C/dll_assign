@@ -21,6 +21,7 @@ public:
 	List();
 	//copy constructor
 	List(const List& right);
+<<<<<<< HEAD
 	//destructor, not in the submitted assignment
 	~List();
 =======
