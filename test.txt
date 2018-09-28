@@ -1,11 +1,12 @@
 ID	Name	Price	Category	Company
 12	Stapler	200	Stationary	Deli
-1B	Wavy	25	Chips	Lays
+1	Wavy	25	Chips	Lays
 213	DairyMilk	30	Chocolate	Cadbury
-1A	PalmSupport	500	Pain Reliever	Perfect
-3C	Flakes	100	Chocolate	Cadbury
-68	Office Chair	10000	Chair	Heritage
-100	White Board Marker	100	Marker	Dollar
-1004A	A4 File Cover	10	Cover	Dollar
+1	PalmSupport	500	PainReliever	Perfect
+3	Flakes	100	Chocolate	Cadbury
+68	OfficeChair	10000	Chair	Heritage
+100	WhiteBoardMarker	100	Marker	Dollar
+1004	A4FileCover	10	Cover	Dollar
 1	Pointer	56	Pen	Dollar
-89	Blue Marker	103	Marker	Dollar
+89	BlueMarker	103	Marker	Dollar
+	
