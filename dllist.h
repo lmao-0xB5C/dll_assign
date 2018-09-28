@@ -21,7 +21,7 @@ public:
 	List();
 	//copy constructor
 	List(const List& right);
-	//destructor, not in the submitted assignment
+	//destructor
 	~List();
 
 public:
@@ -53,7 +53,7 @@ public:
 	//part of COPY-SWAP-IDIOM, explained in node.h
 	//friend so implemented here, for consistency
 	friend void swap(List& first, List& second) {
-		using std::swap; //ADL or Abstract data lookup
+		using std::swap; //ADL or Argument dependent lookup
 		swap(first.head, second.head);
 		swap(first.tail, second.tail);
 	}
