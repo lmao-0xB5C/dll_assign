@@ -335,3 +335,15 @@ void List<T>::sortList(Iterator& itr_a, Iterator& itr_b) {
 	else
 		std::cout << "Iterators are not correct!\n";
 }
+
+template<typename T>
+List<T>::~List(){
+
+	Node<T>* hold;
+	while(head != nullptr){
+		hold = head;
+		head = head->next;
+		delete hold;
+	}
+	head = tail = nullptr;
+}
