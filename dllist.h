@@ -70,8 +70,8 @@ public:
 	//and uses returned node to construct it
 	inline Iterator begin() { return head; }
 	inline Iterator end() { return tail; }
-	inline const Rev_Iterator rBegin() { return tail; }
-	inline const Rev_Iterator rEnd() { return head; }
+	inline Rev_Iterator rBegin() { return tail; }
+	inline Rev_Iterator rEnd() { return head; }
 };
 
 //default constructor
