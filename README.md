@@ -83,7 +83,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    cd "PATH-TO-DIRECTORY"
    ```
-2. Run the main.cpp file (THIS COMMAND FOR MAC USING TERMINAL. CHECK FOR YOU RESPECTIVE OS)
+2. Run the main.cpp file (CHECK NOTE BELOW)
    ```sh
    clang++ -std=c++14 -stdlib=libc++ -I "PATH-TO-includes-FOLDER" "PATH-TO-main.cpp" "PATH-TO-item.cpp" -o out/release/main
    ```
